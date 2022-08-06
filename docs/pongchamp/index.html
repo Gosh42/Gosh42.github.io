@@ -80,6 +80,7 @@
 		}
 
 		#status-indeterminate {
+			height: 42px;
 			visibility: visible;
 			position: relative;
 		}
@@ -113,7 +114,11 @@
 	</style>
 <link id='-gd-engine-icon' rel='icon' type='image/png' href='index.icon.png' />
 <link rel='apple-touch-icon' href='index.apple-touch-icon.png'/>
-
+<meta content="Pongchamp" property="og:title" />
+<meta content="Gosha's attempt to remake one of the games of all time." property="og:description" />
+<meta content="https://gosh42.github.io/pongchamp" property="og:url" />
+<meta content="https://gosh42.github.io/pongchamp/index.icon.png" property="og:image" />
+<meta content="#B4202A" data-react-helmet="true" name="theme-color" />
 </head>
 <body>
 	<canvas id='canvas'>
@@ -138,7 +143,7 @@
 	<script type='text/javascript' src='index.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":163408,"index.wasm":13351459},"focusCanvas":true,"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":170336,"index.wasm":13788612},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
