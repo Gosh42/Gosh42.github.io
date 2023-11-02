@@ -1,0 +1,39 @@
+:root {
+    --bg: #401F5C;
+    --grad-black: rgba(0, 0, 0, 50%);
+    --colorless: rgba(0, 0, 0, 0);
+}
+
+html {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    line-height: 1.5;
+    background-color: var(--bg);
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    width: 98%;
+    margin: 0 auto;
+    padding: 0 10%;
+    min-height: 100%;
+    background-image: linear-gradient(to right, var(--colorless) 2%, var(--grad-black) 5%, whitesmoke 5% 95%, var(--grad-black) 95%, var(--colorless) 98%);
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 10%);
+}
+
+p, li {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
